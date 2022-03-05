@@ -304,5 +304,54 @@ footer {
     padding: 10px;
 }
 
+@media (min-width: 480px) and (max-width: 599px) {
+
+    .container {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .container-link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .boton {
+        padding: 5px 0;
+    }
+
+    .logobarberia {
+        padding: 25px 0;
+    }
+
+    .banner, .map-container, .galeria, .video {
+        width: auto;
+    }
+
+    .principal {
+        width: auto;
+        padding: 5px 0;
+
+    }
+
+    .diferencial-lista {
+        align-items: center;
+    }
+   
+    .diferencial-items {
+        
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+
+  
+}
 
 
