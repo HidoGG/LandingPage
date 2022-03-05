@@ -54,7 +54,7 @@ header {
 
 .banner {
     width: 100%;
-    height: 600px;
+    height: 100%;
 }
 
 .principal {
@@ -304,7 +304,58 @@ footer {
     padding: 10px;
 }
 
-@media (min-width: 480px) and (max-width: 599px) {
+@media (min-width: 320px) and (max-width: 479px) {
+
+    .container {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+     }
+
+    .principal {
+        width: auto;
+        padding: 5px 20px;
+
+    }
+
+    .map-container, .galeria{
+        width: auto;
+    }
+
+    .diferencial-lista {
+        width: auto;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .diferencial-items {
+        padding: 0 0 20px 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .items {
+        width: auto;
+    }
+
+    
+    .video {
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+@media (min-width: 480px) and (max-width: 799px) {
 
     .container {
         width: auto;
@@ -329,29 +380,53 @@ footer {
         padding: 25px 0;
     }
 
-    .banner, .map-container, .galeria, .video {
+    
+    .map-container, .galeria {
         width: auto;
     }
 
     .principal {
         width: auto;
-        padding: 5px 0;
+        padding: 5px 20px;
 
     }
 
     .diferencial-lista {
+        width: auto;
         align-items: center;
     }
-   
+
     .diferencial-items {
-        
         display: flex;
         flex-direction: column;
     }
 
-    
+    .items {
+        width: auto;
+        padding: 0 50px;
+    }
 
-  
+
+    .video {
+         width: 100%;
+         height: 100%;
+    }
+
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+
+    .container, .map-container,
+    .principal {
+      width: auto;
+    }
+
+    .principal {
+        width: auto;
+        padding: 5px 20px;
+
+    }
+
 }
 
 
