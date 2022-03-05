@@ -306,6 +306,8 @@ footer {
 
 @media (min-width: 320px) and (max-width: 479px) {
 
+
+    /*Index*/
     .container {
         width: auto;
         display: flex;
@@ -369,10 +371,25 @@ footer {
         width: 100%
     }
 
+    /*Contoacto*/
+    form {
+        width: auto;
+        margin: 0 50px;
+    }
+
+    .input-padron {
+        width: 80%;
+    }
+
+    .enviar {
+        width: auto;
+    }
+
 }
 
 @media (min-width: 480px) and (max-width: 799px) {
 
+    /*Index*/
     .container {
         width: auto;
         display: flex;
@@ -444,6 +461,16 @@ footer {
         width: 100%
     }
 
+    /*Contoacto*/
+    form {
+        width: auto;
+        margin: 0 50px;
+    }
+
+    .input-padron {
+        width: 80%;
+    }
+
 }
 
 @media (min-width: 800px) and (max-width: 1000px) {
@@ -475,6 +502,11 @@ footer {
 
     .img-producto {
         width: 100%
+    }
+
+    /*Contoacto*/
+    form {
+        width: 600px;
     }
 
 }
